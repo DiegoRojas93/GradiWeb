@@ -1,0 +1,30 @@
+{
+  "name": "gradiweb",
+  "version": "1.0.0",
+  "description": "Aplicacion de servicio metereologico",
+  "main": "src",
+  "scripts": {
+    "test": "start"
+  },
+  "keywords": [
+    "React",
+    "Sass",
+    "JavaScript",
+    "Apis"
+  ],
+  "author": "Diego Rojas <diegorojas431@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.12.3",
+    "@babel/plugin-transform-runtime": "7.12.1",
+    "@babel/preset-env": "7.12.1",
+    "@babel/preset-react": "7.12.5",
+    "a11y": "0.5.1",
+    "babel-loader": "8.2.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.12.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
+}
