@@ -12,28 +12,29 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-family: Arial, Helvetica, sans-serif;
-	position: relative;
 }
 
 .container{
 	height: 100%;
 	width: 100%;
 	background-color: $color-cuaternario;
-	box-shadow: 2rem 2rem 8rem 0px rgba(0, 0, 0, 20%);
+	box-shadow: 2rem 2rem 8rem 0px #BFBFC4;
 	padding: 1rem;
 	border-radius: 1rem;
 	margin: 0;
+	position: relative;
+	overflow: hidden;
 }
 
 .main__information{
-	height: 12Vh;
-	width: 30Vw;
+	height: 20Vh;
+	width: 60Vw;
 	position: absolute;
-	top: 60vh;
+	top: 50vh;
 	z-index: 1;
-	left: calc(50% - 15Vw);
+	left: calc(50% - 30Vw);
 	display: flex;
-	box-shadow: rgba(0, 0, 0, 50%) 2rem 3rem 5rem 0px;
+	box-shadow: 1rem 3rem 6rem 0px #0000008c;
 	border-radius: 2rem 2rem 1rem 1rem;
 	overflow: hidden;
 
@@ -87,9 +88,9 @@ body {
 
 	.main__information{
 		top: 10vh;
-		left: 10%;
+		left: 5rem;
 		height: 25vh;
-		width: 10vw;
+		width: 15vw;
 		display: flex;
 		flex-direction: column;
 
@@ -109,7 +110,7 @@ body {
 	body{
 		max-height: 100vh;
 		max-width: 100Vw;
-		padding: 6rem 20rem;
+		padding: 4rem 20rem;
 	}
 
 	.container{
@@ -117,9 +118,9 @@ body {
 		border-radius: 2rem;
 	}
 
-	.main_information{
-		top: 20vh;
-		left: 22rem;
+	.main__information{
+		top: 13vh;
+		left: 0rem;
 		border-radius: 2rem;
 		width: 8vw;
 		height: 20vh;

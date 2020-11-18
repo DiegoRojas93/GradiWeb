@@ -20,7 +20,7 @@ const Info__forecast = () => (
 						</div>
 					</div>
 				</div>
-				<div className="box__average-temperature">
+				<div className="box__average-temperature box__differentiator">
 					<h1>32° / 23°</h1>
 				</div>
 			</section>
