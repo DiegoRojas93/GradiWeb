@@ -1,4 +1,8 @@
-alert ('Hello world!')
+import React from 'react';
+import ReactDOM from 'react-dom';
 
+import App from './container/App';
 
-import style from './style.scss';
+const Container = document.getElementById('app');
+
+ReactDOM.render(<App/>, Container);
