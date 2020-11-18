@@ -1,4 +1,4 @@
-import React from 'REACT'
+import React from 'react'
 
 import './styleComponents/Info__locations.scss'
 
