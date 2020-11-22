@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react';
 
 import './styleComponents/Info__visit.scss';
+import singopore from '../../public/images/singopore.jpg'
 
 const Info__visit = () => (
 	<Fragment>
@@ -17,7 +18,7 @@ const Info__visit = () => (
 					<span>singapure</span>
 				</div>
 			</article>
-			<img src="../../public/images/singopore.jpg" alt="singopore"/>
+			<img src={singopore} alt="singopore"/>
 		</div>
 	</Fragment>
 )

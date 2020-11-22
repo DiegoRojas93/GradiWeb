@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 
 import './styleComponents/Info__forecast.scss';
 
+import cloud from '../../public/images/cloud.png';
+
 const Info__forecast = () => (
 	<Fragment>
 		<div className="title">
@@ -12,7 +14,7 @@ const Info__forecast = () => (
 				<div className="box__day">
 					<div className="box__day-information">
 						<div className="image">
-							<img src="../../public/images/cloud.png" alt="icon" />
+							<img src={cloud} alt="icon" />
 						</div>
 						<div className="day">
 							<div className="title"><h1>day</h1></div>
@@ -29,7 +31,7 @@ const Info__forecast = () => (
 				<div className="box__day">
 					<div className="box__day-information">
 						<div className="image">
-							<img src="../../public/images/cloud.png" alt="icon" />
+							<img src={cloud} alt="icon" />
 						</div>
 						<div className="day">
 							<div className="title"><h1>day</h1></div>
@@ -46,7 +48,7 @@ const Info__forecast = () => (
 				<div className="box__day">
 					<div className="box__day-information">
 						<div className="image">
-							<img src="../../public/images/cloud.png" alt="icon" />
+							<img src={cloud} alt="icon" />
 						</div>
 						<div className="day">
 							<div className="title"><h1>saturday</h1></div>

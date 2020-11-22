@@ -2,12 +2,15 @@ import React from 'react'
 
 import './styleComponents/Info__locations.scss'
 
+import cloud from '../../public/images/cloud.png';
+import location from '../../public/images/Location.jpg';
+
 const Info__locations = () => (
 	<section className="info__locations-container">
 		<article className="box" id="francia">
 			<div className="data__important">
 				<section className="icon">
-					<img src="../../public/images/cloud.png" alt="icon" />
+					<img src={cloud} alt="icon" />
 				</section>
 				<section className="general">
 					<article className="title"><h1>12 C°</h1></article>
@@ -28,7 +31,7 @@ const Info__locations = () => (
 		<article className="box">
 			<div className="data__important">
 				<section className="icon">
-					<img src="../../public/images/cloud.png" alt="icon" />
+					<img src={cloud} alt="icon" />
 				</section>
 				<section className="general">
 					<article className="title"><h1>12 C°</h1></article>
@@ -46,7 +49,7 @@ const Info__locations = () => (
 		</article>
 
 		<article className="box">
-			<img src="../../public/images/Location.jpg" alt="Location" />
+			<img src={location} alt="Location" />
 		</article>
 	</section>
 )

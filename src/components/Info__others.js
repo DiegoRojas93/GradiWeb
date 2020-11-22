@@ -2,14 +2,20 @@ import React from 'react';
 
 import './styleComponents/Info__others.scss'
 
+import images1 from '../../public/images/1.jpg';
+import images2 from '../../public/images/2.jpg';
+import images3 from '../../public/images/3.jpg';
+import museum from '../../public/images/museum.jpg';
+import rosa from '../../public/images/rosa.jpg';
+
 const Info__others = () => (
 	<section className="container__info">
 		<article className="reviews">
 			<p>+ top Reviews</p>
 			<section className="users">
-				<div className="figure"><img src="../../public/images/1.jpg" alt="user1" /></div>
-				<div className="figure"><img src="../../public/images/2.jpg" alt="user2" /></div>
-				<div className="figure"><img src="../../public/images/3.jpg" alt="user3" /></div>
+				<div className="figure"><img src={images1} alt="user1" /></div>
+				<div className="figure"><img src={images2} alt="user2" /></div>
+				<div className="figure"><img src={images3} alt="user3" /></div>
 				<div className="figure"><span>G+</span></div>
 			</section>
 		</article>
@@ -24,7 +30,7 @@ const Info__others = () => (
 					<span>Museum</span>
 				</div>
 			</article>
-			<img src="../../public/images/museum.jpg" alt="museum" />
+			<img src={museum} alt="museum" />
 		</article>
 
 		<article className="images">
@@ -37,7 +43,7 @@ const Info__others = () => (
 					<span>of healt</span>
 				</div>
 			</article>
-			<img src="../../public/images/rosa.jpg" alt="rosa" />
+			<img src={rosa} alt="rosa" />
 			<div className="box"><h1>+</h1></div>
 		</article>
 	</section>

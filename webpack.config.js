@@ -8,11 +8,6 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'bundle.js',
-		publicPath: 'dist/'
-	},
-
-	devServer: {
-		open: true
 	},
 
 	resolve: {
@@ -31,13 +26,23 @@ module.exports = {
 				use: [{loader: MiniCssExtractPlugin.loader}, 'css-loader', 'sass-loader']
 			},
 			{
-				test: /\.jpj|png|gif|webp|mp4|webm$/,
-				use: {
-					loader: 'url-loader',
-					options: {
-						limit: 9000,
+				test:/\.(png|jpe?g|gif)$/i,
+				use:[
+					// {
+					// 	loader: 'url-loader',
+					// 	options: {
+					// 		limit: 9000,
+					// 	}
+					// },
+					{
+						loader: 'file-loader',
+						options: {
+							name: `[name].[ext]`,
+							outputPath: 'images',
+							useRelativePath: true
+						}
 					}
-				}
+				]
 			}
 		]
 	},
